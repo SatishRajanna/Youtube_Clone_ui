@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Nav Bar section -->
+    <div class="nav-container">
+        <div class="logo-container">
+           <img  class="menulogo" src="./assets/images/menu.png" alt="menu">
+           <img class="logo"src="./assets/images/YoutubelogoPNGimage.png">
+        </div>
+        <div class="searchbox-container">
+            <input id="search" type="search" placeholder="Search">
+            <button id="searchbtn">
+                <div class="btn-div">
+                    <img src="./assets/images/search.png">
+                </div>
+            </button>
+        </div>
+        <div class="account-container">
+            <div class="add-video">
+                <img class="img" src="./assets/images/video.png" alt="video">
+            </div>
+            <div class="notification">
+                <img class="notification-img" src="./assets/images/bell.png" alt="notifiation">
+            </div>
+            <div class="account-info">
+                <h3>S</h3>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Navbar ends here-->
+
+    <!--sections-->
+    <!--1 navagation links-->
+    <!--2 side section-->
+    <!--content section-->
+    <div class="grid-container">
+        <div class="side section">
+            <div class="sidebox .home">
+                <div class="home icon">
+                    <div class="img">
+                        <img src="./assets/images/home.png" alt="home-icon">
+                    </div>
+                    <p>Home</p>
+                </div>
+                <div class="shorts icon">
+                    <div class="img">
+                        <img src="./assets/images/short-film.png" alt="shorts-icon">
+                    </div>
+                    <p>Shorts</p>
+                </div>
+                <div class="subscription icon">
+                <div class="img">
+                    <img src="./assets/images/subscribe.png" alt="subscriptions">
+                    </div>
+                    <p>Subscription</p>
+                </div>
+                <div class="icon">
+                    <p>You</p>
+                </div>
+                <div class="history icon">
+                    <div class="img">
+                        <img src="./assets/images/history.png" alt="history-icon">
+                    </div>
+                    <p>Histoty</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Watch Later</p>
+                </div>
+                <div class="subscription icon">
+                <div class="img">
+                    <img src="./assets/images/like.png" alt="like-icon">
+                    </div>
+                    <p>Liked Videos</p>
+                </div>
+                
+            </div>
+           
+            <div class="sidebox .subscriptions">
+                <div class="icon">
+                    <h3>Subscriptions</h3>
+                </div>
+                <div class="history icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="history-icon">
+                    </div>
+                    <p>Appbrewery</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Asianboyray</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Yamaha</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>FanumLive</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Ishowspeed</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Salaar</p>
+                </div>
+                <div class="subscription icon">
+                
+                    <p>Show More</p>
+                </div>
+                
+            </div>
+            <div id="explore" class="sidebox .explore">
+                <div class="icon">
+                    <h3>Explore</h3>
+                </div>
+                <div class="history icon">
+                    <div class="img">
+                        <img src="./assets/images/history.png" alt="history-icon">
+                    </div>
+                    <p>Trending</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Shopping</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Music</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Movies</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Live</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Gaming</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>News</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Sports</p>
+                </div>
+               
+                <div class="subscription icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Podcasts</p>
+
+                </div>
+
+            </div>
+            <div class="sidebox .more_from_yt">
+                <div  class="icon">
+                    <h3>More From Youtube</h3>
+                 </div>
+                <div class="home icon">
+                    <div class="img">
+                        <img src="./assets/images/home.png" alt="home-icon">
+                    </div>
+                    <p>Youtube Premium</p>
+                </div>
+                <div class="shorts icon">
+                    <div class="img">
+                        <img src="./assets/images/short-film.png" alt="shorts-icon">
+                    </div>
+                    <p>Youtube Music</p>
+                </div>
+                <div class="subscription icon">
+                <div class="img">
+                    <img src="./assets/images/subscribe.png" alt="subscriptions">
+                    </div>
+                    <p>Youtube Kids</p>
+                </div>
+               
+                <div class="history icon">
+                    <div class="img">
+                        <img src="./assets/images/history.png" alt="history-icon">
+                    </div>
+                    <p>Settings</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Report History</p>
+                </div>
+                <div class="clock icon">
+                    <div class="img">
+                        <img src="./assets/images/clock.png" alt="clock-icon">
+                    </div>
+                    <p>Help</p>
+                </div>
+
+                <div class="subscription icon">
+                <div class="img">
+                    <img src="./assets/images/like.png" alt="like-icon">
+                    </div>
+                    <p>Send Feedback</p>
+                </div>
+                
+            </div>
+           
+            <div class="footer">
+                <div class="Copyright"> Copyright © 2024 Rajanna Satish. All Rights Reserved.</div>
+            </div>
+
+            
+        </div>
+        <div class="nav section"><ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Live</a></li>
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">Phonk</a></li>
+            <li><a href="#">One piece</a></li>
+            <li><a href="#">Berserk</a></li>
+            <li><a href="#">Jojo</a></li>
+            <li><a href="#">Drake</a></li>
+            <li><a href="#">Feel good music</a></li>
+            <li><a href="#">Metro Bommin</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Node js</a></li>
+        </ul>
+    </div>
+        <div class="content section">
+        <div class="row">    
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="row">    
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="row">    
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="row">    
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="videocard">
+                <div class="img">
+                    <img src="./assets/images/hq720.webp" alt="prabhas with blood">
+                    <div class="time-line"><span>11:00</span></div>
+                </div>
+                <div class="carddetails">
+                    <div class="card-img">
+                        <img src="./assets/images/channelprofile">
+                    </div>
+                    <div class="card-title">   
+                        <h3>Kurchi Madathapetti (Tamil) Video Song | Guntur Kaaram | Mahesh Babu |</h3>   
+                        <div class="channel-name">
+                            <p>Aditya's Officials</p>
+                        </div>
+                        <div class="views">
+                            <span class="views-info">74M views</span>
+                            <span class="years-info">. 3 weeks ago</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        
+        </div>
+    </div>
+</body>
+</html>
